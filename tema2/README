@@ -1,0 +1,80 @@
+Mihai Dragos-Andrei Grupa312CB
+
+->Variabila Pool reprezinta o stiva de thresh-uri si variabila Taskid
+reprezinta o stiva ce salveaza id-urile ramase;
+
+->Cand primesc comanda add_tasks citesc parametrii task-ului ce urmeaza 
+a fi creat si il introduc in coada waiting cu ajutorui unei functii ce 
+insereaza ordonat print pivotarea elementelor in 2 cozi diferite 
+
+->Cand primesc comana get_task caut in coada running si reintroduc din
+coada auxiliara in principala pentru a nu pierde elementele la parcurgere
+
+->Functia get thread functioneaza pe acelasi principiu la get_task, dar 
+pargurc stiva Pool pentru a verifica existenta thread-ului
+
+Obs: Am o problema cu vmchecker-ul. Local primesc 90 de puncte si pe 
+vmchecker nu primesc niciun punct.
+
+
+                     = Tema 2 SD ThreadPoolExecutor =
+
+[test1.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test2.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test3.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test4.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test5.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test6.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test7.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test8.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test9.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test10.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test11.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test12.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test13.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test14.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test15.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test16.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test17.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test18.out]...........................................passed  [05/135]
+[VALGRIND: FAILED]....................................
+[test19.out]...........................................failed  [ 0/135]
+
+[test20.out]...........................................failed  [ 0/135]
+
+[test21.out]...........................................failed  [ 0/135]
+
+[test22.out]...........................................failed  [ 0/135]
+
+[test23.out]...........................................failed  [ 0/135]
+
+[test24.out]...........................................failed  [ 0/135]
+
+[test25.out]...........................................failed  [ 0/135]
+
+[test26.out]...........................................failed  [ 0/135]
+
+[test27.out]...........................................failed  [ 0/135]
+
+
+                                           Total: [90/135]
+
+                                           Bonus: [00/20]
+
