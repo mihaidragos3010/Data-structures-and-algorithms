@@ -1,0 +1,7 @@
+Am creat un program care implementeaza functionalitatile celor 4 comenzi cerute.
+Programul are la baza extragerea unor cuvinte dintr-un fisier pe care
+le filtreaza in asa fel incat sa poata fi introduse in tabela hash.
+Introducerea in tabela se realizeaza prin comprimarea datelor in mai multe 
+tipuri de structuri, in functie de focul unde trebuie introduse, si utilizarea mai multor liste generice pentru a le putea stoca.
+Dupa introducere cuvintele sunt sortate in conformitate cu cerinta.
+Programul face distinctia intre cele 3 comenzi asemanatoare "print", "prrint x", "print x y".
