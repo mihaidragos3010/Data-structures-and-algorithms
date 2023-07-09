@@ -1,0 +1,25 @@
+===Mihai Dragos-Andrei===
+Grupa 312CB
+
+
+    Programul creaza o structura bazata pe arbori binari de cautare. La inceput
+am initializat directorul radacina "root". Rolul variabilei inst este de a filtra
+comenzile date si de a le aplica functiile potrivite. Cand primim comanda "touch"
+creem o celula de tip "TFisier". Ne folosim de cele doua functii de cautare
+pentru a verifica daca mai exista un fisier/director cu numele cerut. Comanda 
+"mkdir" functioneaza pe acelasi principiu ca functia anterioara. Comanda "ls"
+afiseaza pe baza SRD arborii de directoare si fisiere din directorul curent.
+Comenzile "rm" si "rmdir" trateaza cele 3 cazuri de eliminare ale unui 
+fisier/director si anume: eliminarea unei frunze, eliminarea unui nod din mijlocul
+struturii si eliminearea radacinii. Principiul de functionare pentru ultimele doua
+cazuri este de a inversa informatia din nodul curent cu minimul din subarborele
+drept. Dupa inversare se parcurge arborele prin recursivitate si se ajunge pe 
+vechea valoare a minimului din subarborelui drept si se va elimina ca o frunza.
+Comanda cd verifica daca urmatorul input este ".." si egaleaza root=root->parinte.
+In caz contrat cauta numele inserat si in cazul in care il gaseste realizeaza
+mutarea in directorul respectiv. Comanda "pwd" merge pana la radacina "root" si
+afiseaza drumul inapot pana la directorul actual. Acest lucru se realizeaza prin 
+recursivitare. Comanda "find" cu "-f" / "-d" cauta in toata strctura pana cand
+ajunge la un fisier/director cu numele cerut. Acest lucru se realizeaza prin 
+recursivitare tratand toate cele 8 cazuri pentru parametrii "root->st", 
+"root->dr" si "root->directoare".
